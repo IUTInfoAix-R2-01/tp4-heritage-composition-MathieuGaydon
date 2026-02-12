@@ -41,6 +41,4 @@ public class Student extends Person {
 		+", adress ="+ Person.getAdress()+"], program=" 
 		+ program + ", year=" + year +", fee=" + fee + "]";
 	}
-	
-	
 }
