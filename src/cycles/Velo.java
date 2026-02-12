@@ -6,11 +6,11 @@ public class Velo{
 	private double diamRoue;
 	private Random genAlea;
 	
-	public double getDEFAUT_BRAQUET() {
+	public static double getDEFAUT_BRAQUET() {
 		return DEFAUT_BRAQUET;
 	}
 	
-	public void setDEFAUT_BRAQUET (double DEFAUT_BRAQUET) {
+	public static void setDEFAUT_BRAQUET (double DEFAUT_BRAQUET) {
 		Velo.DEFAUT_BRAQUET = DEFAUT_BRAQUET;
 	}
 	
