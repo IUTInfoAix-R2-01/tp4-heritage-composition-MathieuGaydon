@@ -67,7 +67,7 @@ public class Velo{
 	public static void main (String[] args) {
 		Velo test = new Velo();
 		System.out.println(test);
-		System.out.println(test.getDEFAUT_BRAQUET());
+		System.out.println(Velo.getDEFAUT_BRAQUET());
 		System.out.println(test.getGenAlea());
 		System.out.println(test.getPuissance(3.0));
 	}
